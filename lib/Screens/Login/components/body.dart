@@ -50,7 +50,7 @@ class Body extends StatelessWidget {
 
               },
             ),
-            SizedBox(height: size.height * .03),
+            SizedBox(height: size.height * .04),
             AlreadyHaveAnAccountCheck(
               press: () {
                 Navigator.push(
