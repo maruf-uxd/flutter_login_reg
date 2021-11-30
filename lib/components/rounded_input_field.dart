@@ -1,3 +1,4 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_login_reg/components/text_field_container.dart';
 import 'package:flutter_login_reg/constants.dart';
@@ -20,6 +21,7 @@ class RoundedInputField extends StatelessWidget {
     return TextFieldContainer(
       child: TextField(
         onChanged: onChanged,
+        textInputAction: TextInputAction.next,
         decoration: InputDecoration(
           icon: Icon(
             icon,
